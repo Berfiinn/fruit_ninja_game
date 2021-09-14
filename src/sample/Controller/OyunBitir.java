@@ -17,6 +17,9 @@ public class OyunBitir implements Initializable
     @FXML
     private Text oyuncuScore;
 
+
+    
+
     @FXML
     private Text YuksekSkor;
 
