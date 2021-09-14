@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.Button?>
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="434.0" prefWidth="631.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Controller">
+    <children>
+        <ImageView fx:id="dashboardArkaPlan" fitHeight="648.0" fitWidth="1046.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/arkaplan.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="Logo" fitHeight="176.0" fitWidth="472.0" layoutX="282.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/logo.png" />
+            </image>
+        </ImageView>
+       <Rectangle fx:id="card2" fill="#9ed0ff00" layoutX="520.0" layoutY="348.0"  stroke="#4cb01a"/>
+        <Text fx:id="newGameButton" fill="#24d347" layoutX="493.0" layoutY="257.0" onMouseClicked="#onNewGameButton"  strokeWidth="0.0" text="New Game" wrappingWidth="222.13671875">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+        </Text>
+        <Button textFill="black"  layoutX="500.0" prefHeight="100" prefWidth="100" layoutY="330.0"  mnemonicParsing="false" onMouseClicked="#yuksekSkorButtonPressed" text="Yüksek Skorlar" />
+        <Button textFill="black" layoutX="380.0" prefHeight="100" prefWidth="100" layoutY="330.0"  mnemonicParsing="false" onMouseClicked="#leaderBoardButtonPressed" text="Lider Bordu" />
+    </children>
+</AnchorPane>

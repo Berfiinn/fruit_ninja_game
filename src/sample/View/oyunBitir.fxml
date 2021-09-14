@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.Button?>
+<AnchorPane id="AnchorPane" prefHeight="210.0" prefWidth="477.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.OyunBitir">
+    <children>
+        <ImageView fitHeight="212.0" fitWidth="479.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/end_game.png" />
+            </image>
+        </ImageView>
+        <Text fill="#FFF" layoutX="165.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toplam Skor: ">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Text>
+        <Text fx:id="oyuncuScore" fill="#ffc600" layoutX="278.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="300">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+        </Text>
+        <Text fx:id="YuksekSkor" fill="#ffcc00" layoutX="27.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tebrikler yüksek skora ulaştınız: 10000">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Text>
+        <Button  layoutX="121.0" layoutY="112.0" onMousePressed="#menuyeDonButtonPressed" text="Geri Dön" >
+        </Button>
+    </children>
+</AnchorPane>
