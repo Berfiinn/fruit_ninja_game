@@ -34,13 +34,14 @@ public class OyunBitir implements Initializable
             YuksekSkor.setText("Tebrikler yüksek skora ulaştınız: " + oyuncuSkore);
             YuksekSkor.setLayoutX(33);
             YuksekSkor.setLayoutY(79);
+
         }
+
         else
         {
             YuksekSkor.setText("Oyun Bitti- En yüksek skor: " + yuksekSkor);
             YuksekSkor.setLayoutX(170);
-            YuksekSkor.setLayoutY(80);
-        }
+            YuksekSkor.setLayoutY(80); }
     }
 
     @FXML

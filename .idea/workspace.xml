@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Portakal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Portakal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/OyunBitir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/OyunBitir.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller/OyunBitir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="527">
+              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller/Portakal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="349">
@@ -263,13 +263,13 @@
         <option value="$PROJECT_DIR$/src/sample/View/dashboard.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Controller/Elma.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller/Bomb.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controller/OyunBitir.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller/BlackBomb.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller/Login.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller/Ananas.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller/Game.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller/yuksekSkor.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller/Portakal.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/OyunBitir.java" />
       </list>
     </option>
   </component>
@@ -280,7 +280,7 @@
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1613" />
@@ -803,16 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller/OyunBitir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller/yuksekSkor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
@@ -868,6 +858,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/OyunBitir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
