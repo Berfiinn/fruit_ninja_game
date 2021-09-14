@@ -75,7 +75,6 @@ public class Portakal extends Fruit
 
         animation.setCycleCount(Timeline.INDEFINITE);
         animation.play();
-        
     }
 
     @Override
